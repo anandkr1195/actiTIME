@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching :]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching :]]>
+    </line>
+    <line>
+      <![CDATA[(build 40469)]]>
+    </line>
+    <line>
+      <![CDATA[build is same]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17155" started-at="2018-12-01T07:01:29Z" finished-at="2018-12-01T07:01:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17155" started-at="2018-12-01T07:01:29Z" finished-at="2018-12-01T07:01:46Z">
+      <class name="com.actitime.tests.VerifyBuildTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.VerifyBuildTest@4c70fda8]" name="preCondition" is-config="true" duration-ms="9397" started-at="2018-12-01T07:01:29Z" finished-at="2018-12-01T07:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="verifythebuild()[pri:0, instance:com.actitime.tests.VerifyBuildTest@4c70fda8]" name="verifythebuild" duration-ms="7269" started-at="2018-12-01T07:01:38Z" finished-at="2018-12-01T07:01:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching :]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching :]]>
+            </line>
+            <line>
+              <![CDATA[(build 40469)]]>
+            </line>
+            <line>
+              <![CDATA[build is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifythebuild -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.tests.VerifyBuildTest@4c70fda8]" name="postCondition" is-config="true" duration-ms="443" started-at="2018-12-01T07:01:46Z" finished-at="2018-12-01T07:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.VerifyBuildTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
